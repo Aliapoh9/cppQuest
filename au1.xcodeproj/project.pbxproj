@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD113AAB227F088200CD6912 /* Enemies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD113AA9227F088200CD6912 /* Enemies.cpp */; };
+		BD16FF3B22843B47002F1681 /* Knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD16FF3922843B47002F1681 /* Knight.cpp */; };
+		BD16FF3E22849603002F1681 /* Boss.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD16FF3C22849603002F1681 /* Boss.cpp */; };
+		BD16FF4122849E41002F1681 /* Dark_Knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD16FF3F22849E41002F1681 /* Dark_Knight.cpp */; };
+		BD556C602260AF5300F8FEA9 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD556C5F2260AF5300F8FEA9 /* ResourcePath.mm */; };
+		BD556C632260AF5300F8FEA9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD556C622260AF5300F8FEA9 /* main.cpp */; };
+		BD556C6A2260AF5300F8FEA9 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD556C692260AF5300F8FEA9 /* sansation.ttf */; };
+		BD556C6C2260AF5300F8FEA9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD556C6B2260AF5300F8FEA9 /* icon.png */; };
+		BD8B15FC227F261200E00E8B /* Goblin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8B15FA227F261200E00E8B /* Goblin.cpp */; };
+		BD8B1603227F63C700E00E8B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = BD8B1602227F63C700E00E8B /* Assets */; };
+		BD8CC664226DB1E900FE464B /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC663226DB1E900FE464B /* Player.cpp */; };
+		BD8CC666226DB6DA00FE464B /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC665226DB6DA00FE464B /* Character.cpp */; };
+		BDA95C3822830F66004D3E14 /* Mercenary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA95C3622830F66004D3E14 /* Mercenary.cpp */; };
+		BDA95C3E22831278004D3E14 /* PartyMember.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA95C3C22831278004D3E14 /* PartyMember.cpp */; };
+		BDBFB0A32278474D00E9E19A /* Platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDBFB0A12278474D00E9E19A /* Platform.cpp */; };
+		BDC92013227EAD5900E03A01 /* GameEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC92011227EAD5900E03A01 /* GameEngine.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD113AA9227F088200CD6912 /* Enemies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemies.cpp; sourceTree = "<group>"; };
+		BD113AAA227F088200CD6912 /* Enemies.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enemies.hpp; sourceTree = "<group>"; };
+		BD16FF3922843B47002F1681 /* Knight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Knight.cpp; sourceTree = "<group>"; };
+		BD16FF3A22843B47002F1681 /* Knight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Knight.hpp; sourceTree = "<group>"; };
+		BD16FF3C22849603002F1681 /* Boss.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boss.cpp; sourceTree = "<group>"; };
+		BD16FF3D22849603002F1681 /* Boss.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Boss.hpp; sourceTree = "<group>"; };
+		BD16FF3F22849E41002F1681 /* Dark_Knight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dark_Knight.cpp; sourceTree = "<group>"; };
+		BD16FF4022849E41002F1681 /* Dark_Knight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dark_Knight.hpp; sourceTree = "<group>"; };
+		BD556C5A2260AF5300F8FEA9 /* au1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = au1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD556C5E2260AF5300F8FEA9 /* au1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "au1-Info.plist"; sourceTree = "<group>"; };
+		BD556C5F2260AF5300F8FEA9 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		BD556C612260AF5300F8FEA9 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		BD556C622260AF5300F8FEA9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BD556C692260AF5300F8FEA9 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		BD556C6B2260AF5300F8FEA9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BD8B15FA227F261200E00E8B /* Goblin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Goblin.cpp; sourceTree = "<group>"; };
+		BD8B15FB227F261200E00E8B /* Goblin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Goblin.hpp; sourceTree = "<group>"; };
+		BD8B1602227F63C700E00E8B /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		BD8CC65F226DA44600FE464B /* Character.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
+		BD8CC662226DAFD000FE464B /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		BD8CC663226DB1E900FE464B /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		BD8CC665226DB6DA00FE464B /* Character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		BDA95C3622830F66004D3E14 /* Mercenary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mercenary.cpp; sourceTree = "<group>"; };
+		BDA95C3722830F66004D3E14 /* Mercenary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mercenary.hpp; sourceTree = "<group>"; };
+		BDA95C3C22831278004D3E14 /* PartyMember.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PartyMember.cpp; sourceTree = "<group>"; };
+		BDA95C3D22831278004D3E14 /* PartyMember.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PartyMember.hpp; sourceTree = "<group>"; };
+		BDBFB0A12278474D00E9E19A /* Platform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Platform.cpp; sourceTree = "<group>"; };
+		BDBFB0A22278474D00E9E19A /* Platform.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Platform.hpp; sourceTree = "<group>"; };
+		BDC92011227EAD5900E03A01 /* GameEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameEngine.cpp; sourceTree = "<group>"; };
+		BDC92012227EAD5900E03A01 /* GameEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameEngine.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD556C562260AF5300F8FEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD556C502260AF5300F8FEA9 = {
+			isa = PBXGroup;
+			children = (
+				BD556C5C2260AF5300F8FEA9 /* au1 */,
+				BD556C5B2260AF5300F8FEA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD556C5B2260AF5300F8FEA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD556C5A2260AF5300F8FEA9 /* au1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD556C5C2260AF5300F8FEA9 /* au1 */ = {
+			isa = PBXGroup;
+			children = (
+				BD556C5F2260AF5300F8FEA9 /* ResourcePath.mm */,
+				BD556C612260AF5300F8FEA9 /* ResourcePath.hpp */,
+				BD556C622260AF5300F8FEA9 /* main.cpp */,
+				BD556C642260AF5300F8FEA9 /* Resources */,
+				BD556C5D2260AF5300F8FEA9 /* Supporting Files */,
+				BD8CC65F226DA44600FE464B /* Character.hpp */,
+				BD8CC665226DB6DA00FE464B /* Character.cpp */,
+				BD8B15FF227F265700E00E8B /* Enemies */,
+				BD8CC662226DAFD000FE464B /* Player.hpp */,
+				BD8CC663226DB1E900FE464B /* Player.cpp */,
+				BDA95C3D22831278004D3E14 /* PartyMember.hpp */,
+				BDA95C3C22831278004D3E14 /* PartyMember.cpp */,
+				BD16FF3A22843B47002F1681 /* Knight.hpp */,
+				BD16FF3922843B47002F1681 /* Knight.cpp */,
+				BD16FF4022849E41002F1681 /* Dark_Knight.hpp */,
+				BD16FF3F22849E41002F1681 /* Dark_Knight.cpp */,
+				BDA95C3722830F66004D3E14 /* Mercenary.hpp */,
+				BDA95C3622830F66004D3E14 /* Mercenary.cpp */,
+				BDBFB0A22278474D00E9E19A /* Platform.hpp */,
+				BDBFB0A12278474D00E9E19A /* Platform.cpp */,
+				BDC92012227EAD5900E03A01 /* GameEngine.hpp */,
+				BDC92011227EAD5900E03A01 /* GameEngine.cpp */,
+			);
+			path = au1;
+			sourceTree = "<group>";
+		};
+		BD556C5D2260AF5300F8FEA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD556C5E2260AF5300F8FEA9 /* au1-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD556C642260AF5300F8FEA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD8B1602227F63C700E00E8B /* Assets */,
+				BD556C692260AF5300F8FEA9 /* sansation.ttf */,
+				BD556C6B2260AF5300F8FEA9 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD8B15FF227F265700E00E8B /* Enemies */ = {
+			isa = PBXGroup;
+			children = (
+				BD113AAA227F088200CD6912 /* Enemies.hpp */,
+				BD113AA9227F088200CD6912 /* Enemies.cpp */,
+				BD8B15FB227F261200E00E8B /* Goblin.hpp */,
+				BD8B15FA227F261200E00E8B /* Goblin.cpp */,
+				BD16FF3D22849603002F1681 /* Boss.hpp */,
+				BD16FF3C22849603002F1681 /* Boss.cpp */,
+			);
+			name = Enemies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD556C592260AF5300F8FEA9 /* au1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD556C6F2260AF5300F8FEA9 /* Build configuration list for PBXNativeTarget "au1" */;
+			buildPhases = (
+				BD556C552260AF5300F8FEA9 /* Sources */,
+				BD556C562260AF5300F8FEA9 /* Frameworks */,
+				BD556C572260AF5300F8FEA9 /* Resources */,
+				BD556C582260AF5300F8FEA9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = au1;
+			productName = au1;
+			productReference = BD556C5A2260AF5300F8FEA9 /* au1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD556C512260AF5300F8FEA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Reynauld;
+				TargetAttributes = {
+					BD556C592260AF5300F8FEA9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BD556C542260AF5300F8FEA9 /* Build configuration list for PBXProject "au1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD556C502260AF5300F8FEA9;
+			productRefGroup = BD556C5B2260AF5300F8FEA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD556C592260AF5300F8FEA9 /* au1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD556C572260AF5300F8FEA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD556C6C2260AF5300F8FEA9 /* icon.png in Resources */,
+				BD8B1603227F63C700E00E8B /* Assets in Resources */,
+				BD556C6A2260AF5300F8FEA9 /* sansation.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD556C582260AF5300F8FEA9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD556C552260AF5300F8FEA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD16FF3E22849603002F1681 /* Boss.cpp in Sources */,
+				BDA95C3822830F66004D3E14 /* Mercenary.cpp in Sources */,
+				BD556C632260AF5300F8FEA9 /* main.cpp in Sources */,
+				BD113AAB227F088200CD6912 /* Enemies.cpp in Sources */,
+				BD8B15FC227F261200E00E8B /* Goblin.cpp in Sources */,
+				BD556C602260AF5300F8FEA9 /* ResourcePath.mm in Sources */,
+				BD16FF3B22843B47002F1681 /* Knight.cpp in Sources */,
+				BD8CC664226DB1E900FE464B /* Player.cpp in Sources */,
+				BD16FF4122849E41002F1681 /* Dark_Knight.cpp in Sources */,
+				BDC92013227EAD5900E03A01 /* GameEngine.cpp in Sources */,
+				BDA95C3E22831278004D3E14 /* PartyMember.cpp in Sources */,
+				BD8CC666226DB6DA00FE464B /* Character.cpp in Sources */,
+				BDBFB0A32278474D00E9E19A /* Platform.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD556C6D2260AF5300F8FEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		BD556C6E2260AF5300F8FEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		BD556C702260AF5300F8FEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "au1/au1-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD556C712260AF5300F8FEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "au1/au1-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD556C542260AF5300F8FEA9 /* Build configuration list for PBXProject "au1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD556C6D2260AF5300F8FEA9 /* Debug */,
+				BD556C6E2260AF5300F8FEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD556C6F2260AF5300F8FEA9 /* Build configuration list for PBXNativeTarget "au1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD556C702260AF5300F8FEA9 /* Debug */,
+				BD556C712260AF5300F8FEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD556C512260AF5300F8FEA9 /* Project object */;
+}
